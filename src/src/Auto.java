@@ -25,16 +25,16 @@ public class Auto {
         return targa;
     }
 
-    public String setMarca() {
-        return marca;
+    public void setMarca(String marca) {
+        this.marca = marca;
     }
 
-    public String setModello() {
-        return modello;
+    public void setModello(String modello) {
+        this.modello = modello;
     }
 
-    public String setTarga() {
-        return targa;
+    public void setTarga(String targa) {
+        this.targa = targa;
     }
 
     @Override
