@@ -39,12 +39,13 @@ public class Auto {
 
     @Override
     public String toString() {
-        return "Studente{" +
+        return "Auto{" +
                 "marca='" + marca + '\'' +
                 ", modello='" + modello + '\'' +
-                ", targa=" + targa +
+                ", targa='" + targa + '\'' +
                 '}';
     }
 }
+
 
 
